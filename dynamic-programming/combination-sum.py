@@ -15,6 +15,7 @@ def combination_sum(nums, target):
     res = []
     dfs(nums, 0, 0, target, [], res)
     return res
+
 if __name__ == '__main__':
     a = [2,3,4]
     t = 6
